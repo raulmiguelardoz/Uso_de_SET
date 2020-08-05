@@ -1,0 +1,5 @@
+def lineas(texto):
+    print(" ".join(sorted(set(texto.upper().split(" ")))))
+    
+lineas("Lo mejor del lenguaje Python es que es un lenguaje del que no te aburres")
+                
